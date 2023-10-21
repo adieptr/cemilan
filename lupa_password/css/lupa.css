@@ -13,7 +13,7 @@ body{
     background-image: linear-gradient(red, black);
     background-size: cover;
     background-position: center;
-    min-height: 609px;
+    min-height: 100vh;
 
     
 }

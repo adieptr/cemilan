@@ -13,7 +13,7 @@ body{
     background-image: linear-gradient(red, black);
     background-size: cover;
     background-position: center;
-    min-height: 613px;
+    min-height: 100vh;
 }
 
 .navbar{
@@ -219,6 +219,13 @@ button:hover{
     button{
         margin-left: 75px;
     }
+    .ckanan img{
+        max-width: 0px;
+    }
+    .ckiri img{
+max-width: 0px;
+    }
+}
 
 /* Phone */
 @media (max-width: 450px){
@@ -236,5 +243,4 @@ button:hover{
         width: 250px;
         margin-left: 0px;
     }
-}
 }

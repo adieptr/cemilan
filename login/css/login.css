@@ -5,6 +5,9 @@
     
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(255, 49, 49);
     color: azure;
@@ -12,7 +15,7 @@ body{
     background-image: linear-gradient(red, black);
     background-size: cover;
     background-position: center;
-    min-height: 450px;
+    min-height: 100vh;
 }
 
 .navbar{
@@ -209,11 +212,17 @@ body{
         left: 340px;
         cursor: pointer;
     }
-    body{
+    /* body{
         min-height: 500px;
-    }
+    } */
     .kotak{
         margin-top: 17.5rem;
+    }
+    .ckanan img{
+        max-width: 0px;
+    }
+    .ckiri img{
+        max-width: 0px;
     }
 }
 
@@ -225,18 +234,18 @@ body{
     }
     .kotak .inpt .person{
         position: absolute;
-        top: 58px;
+        top: 67px;
         left: 340px;
     }
     .kotak .inpt #toggleButton{
         position: absolute;
-        top: 122px;
+        top: 129px;
         left: 340px;
         cursor: pointer;
     }
-    body{
+    /* body{
         min-height: 515px;
-    }
+    } */
     .kotak{
         margin-top: 19rem;
     }
