@@ -11,8 +11,8 @@ body{
     align-items: center;
     /* background: url(../img/bg4.png) no-repeat; */
     background-image: linear-gradient(red, black);
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     min-height: 609px;
 
     
